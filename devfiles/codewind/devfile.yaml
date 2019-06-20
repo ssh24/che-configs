@@ -1,0 +1,54 @@
+---
+apiVersion: 1.0.0
+metadata:
+  name: codewind-plugin-env
+projects:
+  - name: goTemplate
+    source:
+      type: git
+      location: 'https://github.com/microclimate-dev2ops/microclimateGoTemplate'
+  - name: lagomTemplate
+    source:
+      type: git
+      location: 'https://github.com/microclimate-dev2ops/lagomJavaTemplate'
+  - name: pythonTemplate
+    source:
+      type: git
+      location: 'https://github.com/microclimate-dev2ops/SVTPythonTemplate'
+  - name: springTemplate
+    source:
+      type: git
+      location: 'https://github.com/microclimate-dev2ops/springJavaTemplate'
+  - name: swiftTemplate
+    source:
+      type: git
+      location: 'https://github.com/microclimate-dev2ops/swiftTemplate'
+  - name: libertyTemplate
+    source:
+      type: git
+      location: 'https://github.com/microclimate-dev2ops/javaMicroProfileTemplate'
+  - name: nodeTemplate
+    source:
+      type: git
+      location: 'https://github.com/microclimate-dev2ops/microclimateNodeTemplate'
+  - name: microproj
+    source:
+      type: git
+      location: 'https://github.com/maysunfaisal/hellomicro.git'
+  - name: springproj
+    source:
+      type: git
+      location: 'https://github.com/maysunfaisal/maysunspring1.git'
+components:
+  - alias: theia-ide
+    type: cheEditor
+    id: eclipse/che-theia/next
+  - alias: exec-plugin
+    type: chePlugin
+    id: eclipse/che-machine-exec-plugin/0.0.1
+  - alias: codewind-plugin
+    type: chePlugin
+    reference: https://raw.githubusercontent.com/ssh24/sakib-codewind/master/plugins/codewind/codewind-plugin/0.0.1/meta.yaml
+  - alias: codewind-theia
+    type: chePlugin
+    reference: https://raw.githubusercontent.com/ssh24/sakib-codewind/master/plugins/codewind/codewind-theia/0.0.1/meta.yaml
