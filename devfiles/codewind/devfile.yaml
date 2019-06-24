@@ -51,4 +51,4 @@ components:
     reference: https://raw.githubusercontent.com/ssh24/sakib-codewind/master/plugins/codewind/codewind-plugin/0.0.1/meta.yaml
   - alias: codewind-theia
     type: chePlugin
-    reference: https://raw.githubusercontent.com/ssh24/sakib-codewind/master/plugins/codewind/codewind-theia/0.0.1/meta.yaml
+    reference: https://raw.githubusercontent.com/ssh24/sakib-codewind/master/plugins/codewind/codewind-theia/0.2.0/meta.yaml
