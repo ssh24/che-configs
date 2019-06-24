@@ -1,0 +1,17 @@
+apiVersion: v2
+publisher: IBM
+name: codewind-plugin
+version: 0.2.0
+type: Theia plugin
+displayName: Codewind Theia Plugin
+title: Codewind Plugin for Theia
+description: Codewind Plugin for Theia
+icon: https://raw.githubusercontent.com/vitaliy-guliy/che-theia-plugin-registry/master/icons/tree.png
+repository: https://github.com/eclipse/che-theia-samples/tree/master/samples/hello-world-frontend-plugin
+category: Other
+firstPublicationDate: "2019-03-13"
+latestUpdateDate: "2019-04-09"
+spec:
+  extensions:
+    - https://raw.githubusercontent.com/ssh24/sakib-codewind/master/plugins/codewind/codewind-theia/0.2.0/codewind-theia-0.2.0.vsix
+
