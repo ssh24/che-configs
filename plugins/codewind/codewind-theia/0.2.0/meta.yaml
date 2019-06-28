@@ -13,5 +13,6 @@ firstPublicationDate: "2019-03-13"
 latestUpdateDate: "2019-04-09"
 spec:
   extensions:
-    - https://raw.githubusercontent.com/ssh24/sakib-codewind/master/plugins/codewind/codewind-theia/0.2.0/codewind-theia-0.2.0.vsix
+     - http://download.eclipse.org/codewind/milestone/0.2.0/codewind-theia-0.2.0.vsix
+#    - https://raw.githubusercontent.com/ssh24/sakib-codewind/master/plugins/codewind/codewind-theia/0.2.0/codewind-theia-0.2.0.vsix
 
