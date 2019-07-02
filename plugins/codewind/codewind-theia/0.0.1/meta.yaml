@@ -13,4 +13,4 @@ firstPublicationDate: "2019-03-13"
 latestUpdateDate: "2019-04-09"
 spec:
   extensions:
-    - https://raw.githubusercontent.com/ssh24/sakib-codewind/master/plugins/codewind/codewind-theia/0.0.1/codewind_plugin.theia
+    - https://raw.githubusercontent.com/ssh24/che-configs/master/plugins/codewind/codewind-theia/0.0.1/codewind_plugin.theia

@@ -1,2 +1,2 @@
-# sakib-codewind
+# che-configs
 Codewind devfiles repository

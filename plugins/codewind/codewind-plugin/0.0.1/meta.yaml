@@ -8,7 +8,7 @@ description: Enables iterative development and deployment in Che
 icon: https://raw.githubusercontent.com/IBM/charts/master/logo/microclimate-logo.png
 publisher: IBM
 category: Other
-repository: https://raw.githubusercontent.com/ssh24/sakib-codewind/master/plugins/codewind/codewind-plugin
+repository: https://raw.githubusercontent.com/ssh24/che-configs/master/plugins/codewind/codewind-plugin
 firstPublicationDate: "2019-02-20"
 spec:
   containers:
