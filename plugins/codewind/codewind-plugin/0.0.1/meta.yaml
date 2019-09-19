@@ -13,7 +13,7 @@ firstPublicationDate: "2019-02-20"
 spec:
   containers:
   - name: codewind-che-sidecar
-    image: sys-mcs-docker-local.artifactory.swg-devops.com/sakib/codewind-che-sidecar:sakib
+    image: sakibh/codewind-che-sidecar:sakib
     volumes:
       - mountPath: "/projects"
         name: projects
