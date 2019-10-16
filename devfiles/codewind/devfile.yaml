@@ -1,7 +1,7 @@
 ---
 apiVersion: 1.0.0
 metadata:
-  name: codewind-plugin-env
+  name: codewind-che
 projects:
   - name: goTemplate
     source:
@@ -35,10 +35,7 @@ components:
   - alias: theia-ide
     type: cheEditor
     id: eclipse/che-theia/next
-  - alias: exec-plugin
-    type: chePlugin
-    id: eclipse/che-machine-exec-plugin/0.0.1
-  - alias: codewind-plugin
+  - alias: codewind-sidecar
     type: chePlugin
     reference: https://raw.githubusercontent.com/ssh24/che-configs/master/plugins/codewind/codewind-plugin/0.0.1/meta.yaml
   - alias: codewind-theia
